@@ -309,26 +309,27 @@ void handleRoot() {
   server.sendContent(temp);
   temp = "";
   temp += "body {background-color: black; color: white;}</style>";
-  temp += "<head><title>SECUREZONE-02556</title></head>";
-  temp += "<h2>SECUREZONE-02556</h2>";
-  temp += "<h3>YOU ARE BEING MONITORED</h3>";
-  temp += "<p>Please keep silent. The Algorithms will catch us otherwise. Since 2018 it is already clear that everything is monitored. The Internet is no more an anonymous place.</p>";
+  temp += "<head><title>SECUREZONE-02556echndrff</title></head>";
+  temp += "<h2>SECUREZONE-02556echndrff</h2>";
+  temp += "<h3>IHR WERDET ABGEHÖHRT</h3>";
+  temp += "<p>Bitte bleibt Still, kein Wort. Andernfalls könnten die Algorythmen euch erkennen. Seit 2018 ist es bereits klar das alles abgehöhrt, gefiltert und analysiert wird. Das Internet vergisst nicht.</p>";
   temp += "<h3>BINARY01</h3>";
-  temp += "<p>You are part of a rebellish group which calls itself binary01. You create huge amounts of fake data to confuse the algorithms and data collections made by the states and companies around the globe. This is forbidden by the state since 2031. They finally catched also your hidden place in Bad Camberg, infiltrated into your networks and are now collecting everything what you do. They recognize when you make a coffee as they know how your coffee machine sounds like, they know more about your children then you know and all of these information are actively used to manipulate your life.</p>";
-  temp += "<h3>THE GREAT ESCAPE</h3>";
-  temp += "<p>The only way to escape is to start the biggest fake data stream which was ever done. For further planning, this Wifi is considered as secure, it has no internet connection and the server you are currently on is hosted via the Canvas you see on the wall in Leons Hideout. Its not connected to the Internet, your data and your communication will be safe. Nobody will ever find out this secret server embedded in Canvas.</p>";
-  temp += "<h3>WIFI CHECK</h3>";
-  temp += "<p>All the WiFi`s in the neighboorhood are infected and infiltrated. You can double check here via this list</p>";
+  temp += "<p>Du bist Teil einer rebellischen Gruppierung welche sich binary01 nennt. Auf basis von öffentlichen Daten werden neue Fake-Datensätze erstellt um die globalen Algorythmen der Regierungen und Konzerne durcheinander zu bringen und deren Ergebnisse zu verfälschen. Man hat dies seit 2031 verboten. Seit 2028 ist auch Bad Camberg voll indixiert, alle Netzwerke wurden infiltriert und dienen als Abhörwerkzeug.<br>Sie wissen wann du deinen Kaffee machst.<br>Sie wissen mehr über deine Kinder als du es weisst. All diese Informationen werden genutzt um unser aller Leben aktiv zu beinflussen.</p>";
+  temp += "<h3>DIE FLUCHT</h3>";
+  temp += "<p>Der einzige Weg vor dieser totalen Manipulation zu fliehen wurde schon Anfang der 2020er Jahre verpasst. Doch wenn die bestehenden Algorythmen regelmäßig mit gefälschten Bewegungsdaten, falschen Online-Bestellungen, fake-news aus den sozialen Netzwerken und falschen Chatverläufen gefüttert werden, wird die Datenqualität so unscharf und schlecht, das manipulationen nicht mehr gezielt möglich sind.</p>";
+  temp += "<p>Dieses WiFi gilt als sicher, es hat keine Verbindung ins Internet und ist Teil des unscheinbaren Leinwandbildes in Leons Versteck. Sämtliche Kommunikation kann über dieses Leinwandbild SECUREZONE-02556echndrff ebenfalls stattfinden, da es über einen integrierten Chatserver verfügt.</p>";
+  temp += "<h3>WiFi Informationsdiest 02556echndrff</h3>";
+  temp += "<p>WiFi Netzwerke sind generell nicht sicher. SECUREZONE-02556echndrff bietet hierfür einen integrierten Scanner, der sämtliche Wifi Netzwerke auf die staatliche Trojaner-Software überprüft.</p>";
   temp += "<body>";
   server.sendContent(temp);
   temp = ""; 
 // Processing User Request
   temp = ""; 
-  temp += "<table border=2 bgcolor = black width = 500 cellpadding =5 ><caption><p><h3>SECURE-STATION-02556:</h2></p></caption>";
+  temp += "<table border=2 bgcolor = black cellpadding =5 ><caption><p><h3>SECURE-STATION-02556echndrff:</h2></p></caption>";
   temp += "<tr><th><br>";
-  temp += "<a href='/wifi'>Show hacked WiFi`s</a><br><br>";
+  temp += "<a href='/wifi'>WiFi Informationsdiest 02556echndrff</a><br><br>";
   temp += "</th></tr></table><br><br>";
-  temp += "<footer><p>Programmed and designed by: Leon Gregori</p><p>Contact information: <a href='mailto:leon@leongregori.com'>leon@leongregori.com</a>.</p></footer>";
+  temp += "<footer><p>Programmed and designed by: Gluehbirnenkopf</p><p>Contact information: <a href='mailto:tobias.kuch@googlemail.com'>email</a>.</p></footer>";
   temp += "</body></html>";
   server.sendContent(temp);
   temp = "";
@@ -549,29 +550,15 @@ void handleWifi()
   temp += "body {background-color: black; color: white;}</style><head><title>Hacked WiFi`s</title></head>";
   server.sendContent(temp);
   temp = "";
-  temp += "<h2>WiFi Einstellungen</h2><body><left>";
-  temp += "<table border=2 bgcolor = black width = 500 ><td><h4>Current WiFi Settings: </h4>";
-  if (server.client().localIP() == apIP) {
-     temp += "Mode : Soft Access Point (AP)<br>";
-     temp += "SSID : " + String (MyWiFiConfig.APSTAName) + "<br><br>";
-  } else {
-     temp += "Mode : Station (STA) <br>";
-     temp += "SSID  :  "+ String (MyWiFiConfig.APSTAName) + "<br>";
-     temp += "BSSID :  " + WiFi.BSSIDstr()+ "<br><br>";
-  }
-  temp += "</td></table><br>";
+  temp += "<h2>WiFi Informationsdiest 02556echndrff</h2><body><left>";
+  temp += "Die Tabelle unten zeigt infizierte, gehackte WiFi Netzwerke. Optional könnt ihr eure Smartphone WiFi Hotspots anschalten und diese Seite aktualisieren, um zu sehen ob eure Geräte auch abgehört werden aber dies wird sowieso der Fall sein. Es kann ein verstecktes WiFi genutzt werden, um mittels eines sicheren Kommunikationsservers den Schalter für den illegalen Datenstrom zu finden, welcher die Abhör-Algorithmen ausschalten wird.<br>";
+  temp += "<h4>Kommunikations-Server</h4>";
+  temp += "Um nicht weiter aufzufallen, sollten keinerlei wichtige Informationen verbal ausgetauscht werden da die Gefahr zu groß ist abgehört zu werden. Ebenfalls sollten keine Nachrichten über das Internet versendet werden. Nutzt den Kommunikationsserver er beinhaltet wichtige Informationen und Werkzeuge. QR codes scannen sollte kein Problem für euch sein.<br>";
+
   server.sendContent(temp);
   temp = "";
   temp += "<form action='/wifi' method='post'>";
-  temp += "<table border=2 bgcolor = white width = 500><tr><th><br>";
-  if (MyWiFiConfig.APSTA == 1)
-    {
-      temp += "<input type='radio' value='1' name='WiFiMode' > WiFi Station Mode<br>";
-    } else
-    {
-      temp += "<input type='radio' value='1' name='WiFiMode' checked > WiFi Station Mode<br>";
-    }
-  temp += "Hacked WiFi Networks:<table border=2 bgcolor = white ></tr></th><td>Number </td><td>SSID  </td><td>Encryption </td><td>WiFi Strength </td>";
+  temp += "Hacked WiFi Networks:<table border=2 bgcolor = black ></tr></th><td>Number </td><td>SSID  </td><td>Encryption </td><td>WiFi Strength </td>";
   server.sendContent(temp);
   temp = "";
   WiFi.scanDelete();
@@ -594,84 +581,14 @@ void handleWifi()
     temp += "<td> --- </td>";
     temp += "<td> --- </td>";
   }
-  temp += "</table><table border=2 bgcolor = black ></tr></th><td>Connect to WiFi SSID: </td><td><select name='WiFi_Network' >";
-if (n > 0) {
-    for (int i = 0; i < n; i++) {
-    temp += "<option value='" + WiFi.SSID(i) +"'>" + WiFi.SSID(i) +"</option>";      
-    }
-  } else {
-    temp += "<option value='No_WiFi_Network'>No WiFiNetwork found !/option>";
-  }
+  temp += "</table>";
   server.sendContent(temp);
   temp = "";
-  temp += "</select></td></tr></th></tr></th><td>WiFi Password: </td><td>";
-  temp += "<input type='text' name='STAWLanPW' maxlength='40' size='40'>"; 
-  temp += "</td></tr></th><br></th></tr></table></table><table border=2 bgcolor = black width = 500 ><tr><th><br>";
+  temp += "<table border=2 bgcolor = black cellpadding =5 ><caption><p><h3>Systemlinks:</h2></p></caption><tr><th><br>";
   server.sendContent(temp);
   temp = "";
-  if (MyWiFiConfig.APSTA == true)
-    {
-      temp += "<input type='radio' name='WiFiMode' value='2' checked> WiFi Access Point Mode <br>";
-    } else
-    {
-      temp += "<input type='radio' name='WiFiMode' value='2' > WiFi Access Point Mode <br>";
-    }
-  temp += "<table border=2 bgcolor = black ></tr></th> <td>WiFi Access Point Name: </td><td>";  
-  server.sendContent(temp);
-  temp = "";            
-  if (MyWiFiConfig.APSTA == true)
-    {
-      temp += "<input type='text' name='APPointName' maxlength='"+String(APSTANameLen-1)+"' size='30' value='" + String(MyWiFiConfig.APSTAName) + "'></td>";
-    } else
-    {
-      temp += "<input type='text' name='APPointName' maxlength='"+String(APSTANameLen-1)+"' size='30' ></td>";
-    }
-  server.sendContent(temp);
-  temp = "";       
-  if (MyWiFiConfig.APSTA == true)
-    {
-      temp += "</tr></th><td>WiFi Password: </td><td>";
-      temp += "<input type='password' name='APPW' maxlength='"+String(WiFiPwdLen-1)+"' size='30' value='" + String(MyWiFiConfig.WiFiPwd) + "'> </td>";
-      temp += "</tr></th><td>Repeat WiFi Password: </td>";
-      temp += "<td><input type='password' name='APPWRepeat' maxlength='"+String(WiFiPwdLen-1)+"' size='30' value='" + String(MyWiFiConfig.WiFiPwd) + "'> </td>";
-    } else
-    {
-      temp += "</tr></th><td>WiFi Password: </td><td>";
-      temp += "<input type='password' name='APPW' maxlength='"+String(WiFiPwdLen-1)+"' size='30'> </td>";
-      temp += "</tr></th><td>Repeat WiFi Password: </td>";
-      temp += "<td><input type='password' name='APPWRepeat' maxlength='"+String(WiFiPwdLen-1)+"' size='30'> </td>";
-    }
-      temp += "</table>";
-  server.sendContent(temp);
-  temp = "";      
-  if (MyWiFiConfig.PwDReq)
-    {
-      temp += "<input type='checkbox' name='PasswordReq' checked> Password for Login required. "; 
-    } else
-    {
-      temp += "<input type='checkbox' name='PasswordReq' > Password for Login required. "; 
-    }
-  server.sendContent(temp);
-  temp = "";  
-  if (MyWiFiConfig.CapPortal)
-    {
-      temp += "<input type='checkbox' name='CaptivePortal' checked> Activate Captive Portal"; 
-    } else
-    {
-      temp += "<input type='checkbox' name='CaptivePortal' > Activate Captive Portal"; 
-    }
-  server.sendContent(temp);
-  temp = "";  
-  temp += "<br></tr></th></table><br> <button type='submit' name='Settings' value='1' style='height: 50px; width: 140px' autofocus>Set WiFi Settings</button>";
-  temp += "<button type='submit' name='Reboot' value='1' style='height: 50px; width: 200px' >Reboot System</button>";
-  server.sendContent(temp);
-  temp = "";
-  temp += "<button type='reset' name='action' value='1' style='height: 50px; width: 100px' >Reset</button></form>";
-  temp += "<table border=2 bgcolor = black width = 500 cellpadding =5 ><caption><p><h3>Systemlinks:</h2></p></caption><tr><th><br>";
-  server.sendContent(temp);
-  temp = "";
-  temp += "<a href='/'>Main Page</a><br><br></th></tr></table><br><br>";
-  temp += "<footer><p>Programmed and designed by: Tobias Kuch</p><p>Contact information: <a href='mailto:tobias.kuch@googlemail.com'>tobias.kuch@googlemail.com</a>.</p></footer>";
+  temp += "<a href='/'>Hauptseite</a><br><br></th></tr></table><br><br>";
+  temp += "<footer><p>Programmed and designed by: Gluehbirnenkopf</p><p>Contact information: <a href='mailto:tobias.kuch@googlemail.com'>email</a>.</p></footer>";
   temp += "</body></html>";  
   server.sendContent(temp);
   server.client().stop(); // Stop is needed because we sent no content length
